@@ -1,0 +1,77 @@
+body{
+    background-image: url(mm.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#par {
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    background-color: #43158d;
+    border-radius: 10px;
+  }
+  
+  
+  h1 {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  
+  .field {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  
+  label {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  #fe{
+    margin-left: 75px;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  textarea {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: #f5f5f5;
+    font-size: 16px;
+  }
+  
+  
+  .field-gender, .field-flavor {
+    margin-bottom: 15px;
+  }
+  
+  .field-gender label, .field-flavor label {
+    font-size: 18px;
+    font-weight: bold;
+    margin-right: 10px;
+  }
+  
+  input[type="radio"],
+  input[type="checkbox"] {
+    margin-right: 10px;
+  }
+  
+  
+  #in {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+  }
+  
+  #in:hover {
+    background-color: #3e8e41;
+  }

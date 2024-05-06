@@ -1,0 +1,49 @@
+body{
+    background-image: url(mm.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: antiquewhite;
+}
+#im{
+    float: right;
+}
+.container{
+    background-color: rgb(255, 0, 251);
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    
+}
+.chaild{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+
+}
+#first{
+    background-color: blue;
+    flex-basis: 500px;
+    position: absolute;
+    order: 2;
+
+}
+#second{
+    background-color:rgb(20, 17, 17);
+    flex-basis: 500px;
+    order: 1;
+    
+}
+#third{
+    background-color:red;
+    flex-basis: 500px;
+    order: 3;
+    
+}
+#top{
+    text-align: center;
+    display: flexbox;
+}
